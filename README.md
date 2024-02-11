@@ -42,7 +42,7 @@
 <!-- Prints do projeto -->
 <h3> 🎯 Layout </h3>
 
-<img src="https://i.postimg.cc/BvXFjy07/notes-print.png" alt="NLW Expert Notes" tittle="Web" width="600">
+<img src="https://i.postimg.cc/BvXFjy07/notes-print.png" alt="NLW Expert Notes" tittle="Web" width="800">
 
 <br>
 
