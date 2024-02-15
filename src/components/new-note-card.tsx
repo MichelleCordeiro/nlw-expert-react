@@ -3,7 +3,11 @@ import { X } from 'lucide-react';
 import { ChangeEvent, FormEvent, useState } from 'react';
 import { toast } from 'sonner'
 
-export function NewNoteCard() {
+interface NewNoteCardProps {
+  onNoteCreated: (content: string) => void
+}
+
+export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
   const [shouldShowOnBoard, setShouldShowOnBoarding] = useState(true)
   const [content, setContent] = useState('')
 
@@ -14,7 +18,7 @@ export function NewNoteCard() {
   // volta ao modal anterior caso o texto da textarea sela apagado
   function handleContentChanged(event: ChangeEvent<HTMLTextAreaElement>) {
     setContent(event.target.value)
-    
+
     if (event.target.value === '') {
       setShouldShowOnBoarding(true)
     }
@@ -23,11 +27,11 @@ export function NewNoteCard() {
   function handleSaveNote(event: FormEvent) {
     event.preventDefault()
 
-    console.log(content)
+    onNoteCreated(content)
 
     toast.success('Nota criada com sucesso!')
   }
-  
+
   return (
     <Dialog.Root>
       <Dialog.Trigger
@@ -91,5 +95,5 @@ export function NewNoteCard() {
         </Dialog.Content>
       </Dialog.Portal>
     </Dialog.Root>
-  );
+  )
 }

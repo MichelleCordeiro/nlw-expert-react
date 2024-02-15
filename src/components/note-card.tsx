@@ -1,5 +1,5 @@
 import * as Dialog from '@radix-ui/react-dialog'
-import { formatDistance, formatDistanceToNow } from 'date-fns'
+import { formatDistanceToNow } from 'date-fns'
 import { ptBR } from 'date-fns/locale'
 import { X } from 'lucide-react'
 
@@ -24,7 +24,9 @@ export function NoteCard({ note }: NoteCardProps) {
         outline-none
         '
       >
-        <span className='text-sm font-medium text-slate-300'>{note.date.toISOString()}</span>
+        <span className='text-sm font-medium text-slate-300'>
+          {formatDistanceToNow(note.date, { locale: ptBR, addSuffix: true })}
+        </span>
 
         <p className='text-sm leading-6 text-slate-400'>{note.content}</p>
 
