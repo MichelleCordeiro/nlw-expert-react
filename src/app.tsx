@@ -56,24 +56,24 @@ export default function App() {
   
   return (
     <div className='mx-auto max-w-6xl my-12 space-y-6 px-5 xl:px-0'>
-      <img src={logo} alt='Logo NLW Expert' />
+      <img src={logo} alt='Logo NLW Expert' className='mx-auto' />
 
       <form className='w-full'>
         <input
           type='text'
           placeholder='Busque em suas notas...'
-          className='w-full bg-transparent sm:text-2xl md:text-3xl font-semibold tracking-tight outline-none placeholder:text-slate-500'
+          className='w-full bg-transparent sm:text-2xl md:text-3xl font-semibold tracking-tight outline-none placeholder:text-sky-600'
           onChange={handleSearch}
         />
       </form>
 
-      <div className='h-px bg-slate-700' />
+      <div className='h-px bg-sky-900' />
 
       <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-[250px]'>
         <NewNoteCard onNoteCreated={onNoteCreated} />
 
         {filteredNotes.map(note => {
-          return <NoteCard key={note.id} note={note} onNoteDeleted={onNoteDeleted} />
+          return <NoteCard key={note.id} note={note} onNoteDeleted={onNoteDeleted} />;
         })}
       </div>
     </div>
