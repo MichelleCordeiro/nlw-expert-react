@@ -9,12 +9,12 @@
 <h1 align="center" style="color:#8257e6">Notes</h1>
 
 <div align="center">
-  Aplicação web desenvolvida na trilha React do NLW Expert da <a href="https://www.rocketseat.com.br/">RocketSeat</a>
+  Aplicação web desenvolvida na trilha React do NLW Expert da <a href="https://www.rocketseat.com.br/" target="_blank">RocketSeat</a>
 
   <br><br>
 
   <!-- <img src="https://i.postimg.cc/BvXFjy07/notes-print.png" alt="NLW Expert Notes" title="App Notes" width="800"> -->
-  <video controls src="src/assets/nlw-expert-notes.mp4" title="App Notes" width="900"></video>
+  <video controls src="https://github.com/MichelleCordeiro/nlw-expert-react-notes/assets/42891377/27842410-bae5-4d2e-96ca-3c512a9792fe" title="App Notes" width="900"></video>
 </div>
 
 <br>
@@ -24,13 +24,13 @@
 
 &emsp; &emsp; Esse projeto é uma aplicação web que permite a criação de notas através da digitação de texto ou por transcrição de áudio. É possível gerar uma nota gravando um áudio que será convertido em texto automaticamente pela API SpeechRecognition.
 
-&emsp; &emsp; Aplicação está disponível [aqui](https://nlw-notes-eta.vercel.app/)
+&emsp; &emsp; Aplicação está disponível <a href="https://nlw-notes-eta.vercel.app/" target="_blank">aqui</a>
 
 <br>
 
 <!-- Tools session -->
 <h3> 🚀 Tecnologias </h3>
-<p align="left"> &emsp;&emsp;
+<p align="left">
   <code><img height="23" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="HTML">HTML</code>
   <code><img height="23" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="CSS">CSS</code>
   <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="JavaScript">JavaScript</code>
@@ -42,6 +42,9 @@
   <code><img height="22" src="https://i.postimg.cc/NMDYcNJT/logo-lucide.png" alt="Lucide React"> Lucide React</code>
   <code><img height="26" src="https://i.postimg.cc/h42nSbgv/speech-recognition-logo3.png" alt="Speech Recognition"> SpeechRecognition</code>
   <code><img height="21" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" alt="VS Code"> VS Code</code>
+</p>
+
+<br>
 
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics) - linguagem de marcação de hipertexto usada na construção de aplicaçÇão web
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) - folhas de estilo em cascata é uma linguagem usada para estilizar
@@ -54,7 +57,6 @@
 - [Lucide React](https://lucide.dev/) - biblioteca de ícones 
 - [Sonner](https://sonner.emilkowal.ski) - biblioteca de notificações 
 - [SpeechRecognition API](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition) - API de reconhecimento de voz nativa
-</p>
 
 <br>
 
